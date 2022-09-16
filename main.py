@@ -138,7 +138,7 @@ while iniciar_trivia == True:
     print(CYAN+"Recibes puntos"+RESET)
     time.sleep(1)
     puntaje += random.randint(10,15)
-    print(GREEN+"Tiens",puntaje,"puntos. "+RESET)
+    print(GREEN+"Tienes",puntaje,"puntos. "+RESET)
     
  time.sleep(3)
 #pregunta 03
@@ -181,7 +181,7 @@ while iniciar_trivia == True:
    print(CYAN+"Recibes puntos"+RESET)
    time.sleep(1)
    puntaje += random.randint(10,15)
-   print(GREEN+"Tiens",puntaje,"puntos. "+RESET)
+   print(GREEN+"Tienes",puntaje,"puntos. "+RESET)
 
  time.sleep(3)
 #pregunta 04
@@ -223,7 +223,7 @@ while iniciar_trivia == True:
     print(CYAN+"Recibes puntos"+RESET)
     time.sleep(1)
     puntaje += random.randint(10,15)
-    print(GREEN+"Tiens",puntaje,"puntos. "+RESET)
+    print(GREEN+"Tienes",puntaje,"puntos. "+RESET)
    
  time.sleep(3)
    #Pregunta 05
@@ -265,7 +265,7 @@ while iniciar_trivia == True:
     print(CYAN+"Recibes puntos"+RESET)
     time.sleep(1)
     puntaje += random.randint(10,15)
-    print(GREEN+"Tiens",puntaje,"puntos. "+RESET)
+    print(GREEN+"Tienes",puntaje,"puntos. "+RESET)
   
  #pregunta 06
  print(MAGENTA+"\n 6) Año que se proclamo la independencia de Perú en la Plaza de Armas de Lima."+RESET)
