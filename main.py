@@ -91,7 +91,7 @@ while iniciar_trivia == True:
    print(CYAN+"!Recibes puntos¡"+RESET)
    time.sleep(1)
    puntaje += random.randint(10,15)
-   print(GREEN+"Tiens",puntaje,"puntos. "+RESET)
+   print(GREEN+"Tienes",puntaje,"puntos. "+RESET)
 
  time.sleep(3)
 #pregunta 02
