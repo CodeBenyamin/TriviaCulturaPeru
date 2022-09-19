@@ -50,38 +50,38 @@ while iniciar_trivia == True:
    time.sleep(1)
    
 #pregunta 01
- print(MAGENTA + "\n1) Quién extendio el Imperio de los Incas. \n")
+ print(MAGENTA + "\n1) Quién extendio el Imperio de los Incas. \n"+RESET)
  time.sleep(2)
- print("a) Manco Cápac")
+ print(BLUE+"a) Manco Cápac")
  time.sleep(1)
  print("b) Sinchi Roca")
  time.sleep(1)
  print("c) Inca Roca")
  time.sleep(1)
- print("d) Pachacútec")
+ print("d) Pachacútec"+RESET)
  time.sleep(1)
 
- respuesta_1 = input("\n Tu respuesta: "+RESET)
+ respuesta_1 = input(MAGENTA +"\n Tu respuesta: "+RESET)
  time.sleep(2)
 
  while respuesta_1 not in ("a", "b", "c", "d"):
-    respuesta_1 = input("Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: ")
+    respuesta_1 = input(YELLOW+"Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
 
  if respuesta_1 == "a":
    puntaje -= 10
-   print("Incorrecto", nombre, ":Manco Cápac no fundó el Imperio de los Incas"+ RESET)
+   print(RED+"Incorrecto", nombre, ":Manco Cápac no fundó el Imperio de los Incas"+ RESET)
    time.sleep(1)
    print("Has perdido puntos. Tienes", puntaje, "puntos.")
    time.sleep(1)
  elif respuesta_1 == "b":
    puntaje -= 10
-   print("Incorrecto", nombre, "Sinchi Roca no fundó el Imperio de los Incas" + RESET)
+   print(RED+"Incorrecto", nombre, "Sinchi Roca no fundó el Imperio de los Incas" + RESET)
    time.sleep(1)
    print("Has perdido puntos. Tienes", puntaje, "puntos.")
    time.sleep(1)
  elif respuesta_1 == "c":
    puntaje -= 10
-   print("Incorrecto", nombre, "Inca Roca no fundó el Imperio de los Incas" + RESET)
+   print(RED+"Incorrecto", nombre, "Inca Roca no fundó el Imperio de los Incas" + RESET)
    time.sleep(1)
    print("Has perdido puntos. Tienes", puntaje, "puntos.")
    time.sleep(1)
@@ -95,39 +95,38 @@ while iniciar_trivia == True:
 
  time.sleep(3)
 #pregunta 02
- print(MAGENTA+"\n2) Sitio arqueológico del Perú relacionado con el origen de la civilización.\n")
+ print(MAGENTA+"\n2) Sitio arqueológico del Perú relacionado con el origen de la civilización.\n"+RESET)
  time.sleep(2)
- print("a) Machu Picchu")
+ print(BLUE+"a) Machu Picchu")
  time.sleep(1)
  print("b) Sipán")
  time.sleep(1)
  print("c) Caral")
  time.sleep(1)
- print("d) Tunanmarca")
+ print("d) Tunanmarca"+RESET)
  time.sleep(1)
 
- respuesta_2 = input("\n Tu respuesta: ")
+ respuesta_2 = input(MAGENTA+"\n Tu respuesta: "+RESET)
  time.sleep(2)
 
  while respuesta_2 not in ("a", "b", "c", "d"):
-    respuesta_2 = input(
-        "Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: ")
+    respuesta_2 = input(YELLOW+"Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
 
  if respuesta_2 == "a":
     puntaje = puntaje - 10
-    print("Incorrecto", nombre, "no es Machu Picchu"+RESET)
+    print(RED+"Incorrecto", nombre, "no es Machu Picchu"+RESET)
     time.sleep(1)
     print("Has perdido puntos. Tienes", puntaje, "puntos.")
     time.sleep(1)
  elif respuesta_2 == "b":
     puntaje = puntaje - 10
-    print("Incorrecto", nombre, "no es Sipán"+RESET)
+    print(RED+"Incorrecto", nombre, "no es Sipán"+RESET)
     time.sleep(1)
     print("Has perdido puntos. Tienes", puntaje, "puntos.")
     time.sleep(1)
  elif respuesta_2 == "d":
     puntaje -= 10
-    print("Incorrect", nombre, "no es Tunanmarca"+RESET)
+    print(RED+"Incorrect", nombre, "no es Tunanmarca"+RESET)
     time.sleep(1)
     print("Has perdido puntos. Tienes", puntaje, "puntos.")
     time.sleep(1)
@@ -142,36 +141,35 @@ while iniciar_trivia == True:
     
  time.sleep(3)
 #pregunta 03
- print(MAGENTA+"\n 3) En la batalla de Ayacucho, el ejército patriota estuvo al mando de: \n")
+ print(MAGENTA+"\n 3) En la batalla de Ayacucho, el ejército patriota estuvo al mando de: \n"+RESET)
  time.sleep(2)
- print("a) Simón Bolívar")
+ print(BLUE+"a) Simón Bolívar")
  time.sleep(1)
  print("b) Agustín Gamarra")
  time.sleep(1)
  print("c) Antonio José de Sucre")
  time.sleep(1)
- print("d) José de San Martín")
+ print("d) José de San Martín"+RESET)
  time.sleep(1)
 
- respuesta_3 = input("\n Tu respuesta: ")
+ respuesta_3 = input(MAGENTA+"\n Tu respuesta: "+RESET)
 
  while respuesta_3 not in ("a", "b", "c", "d"):
-    respuesta_3 = input(
-        "Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: ")
+    respuesta_3 = input(YELLOW+"Debes responder a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
 
  if respuesta_3 == "a":
    puntaje = puntaje - 10
-   print("Incorrecto", nombre, "no es Simón Bolívar"+RESET)
+   print(RED+"Incorrecto", nombre, "no es Simón Bolívar"+RESET)
    time.sleep(1)
    print("Has perdido puntos. Tienes", puntaje, "puntos.")
  elif respuesta_3 == "b":
    puntaje = puntaje - 10
-   print("Incorrecto", nombre, "no es Agustín Gamarra"+RESET)
+   print(RED+"Incorrecto", nombre, "no es Agustín Gamarra"+RESET)
    time.sleep(1)
    print("Has perdido puntos. Tienes", puntaje, "puntos.")
  elif respuesta_3 == "d":
    puntaje -= 10
-   print("Incorrecto", nombre, "no es José de San Martín"+RESET)
+   print(RED+"Incorrecto", nombre, "no es José de San Martín"+RESET)
    time.sleep(1)
    print("Has perdido puntos. Tienes", puntaje, "puntos.")
  else:
@@ -185,37 +183,37 @@ while iniciar_trivia == True:
 
  time.sleep(3)
 #pregunta 04
- print(MAGENTA+"\n 4) La Ciudad Sagrada de Caral se ubica cerca de la ciudad de ..., en la región Lima.\n ")
+ print(MAGENTA+"\n 4) La Ciudad Sagrada de Caral se ubica cerca de la ciudad de ..., en la región Lima.\n "+RESET)
  time.sleep(2)
- print("a) Supe")
+ print(BLUE+"a) Supe")
  time.sleep(1)
  print("b) Cañete")
  time.sleep(1)
  print("c) Chancay")
  time.sleep(1)
- print("d) Huarochirí")
+ print("d) Huarochirí"+RESET)
  time.sleep(1)
 
- respuesta_4 = input("\n Tu respuesta: ")
+ respuesta_4 = input(MAGENTA+"\n Tu respuesta: "+RESET)
 
  while respuesta_4 not in ("a","b","c","d"):
-    respuesta_4 = input("Debes ingresar a, b, c o d. Ingresa nuevamente tu respuesta: ")
+    respuesta_4 = input(YELLOW+"Debes ingresar a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
 
  if respuesta_4 == "b":
     puntaje -= random.randint(10,15)
-    print("Incorrecto", nombre, "no es Cañete"+RESET)
+    print(RED+"Incorrecto", nombre, "no es Cañete"+RESET)
     time.sleep(1)
     print("Has perdido puntos. Tienes", puntaje,"puntos." )
  elif respuesta_4 == "c":
     puntaje -= random.randint(10,15)
-    print("Incorrecto", nombre, "no es Chancay"+RESET)
+    print(RED+"Incorrecto", nombre, "no es Chancay"+RESET)
     time.sleep(1)
     print("Has perdido puntos. Tienes", puntaje,"puntos")
  elif respuesta_4 == "d":
     puntaje -= random.randint(10,15)
     print("Incorrecto", nombre, "no es Huarochirí")
     time.sleep(1)
-    print("Has perdido puntos. Tienes", puntaje,"puntos"+RESET)
+    print(RED+"Has perdido puntos. Tienes", puntaje,"puntos"+RESET)
  else:
     puntaje += random.randint(10,15)
     print(YELLOW+"Respuesta Correcta", nombre, "¡Muy bien!"+RESET)
@@ -227,37 +225,37 @@ while iniciar_trivia == True:
    
  time.sleep(3)
    #Pregunta 05
- print(MAGENTA+"\n5) Son culturas que se desarrollaron en la región La Libertad.\n")
+ print(MAGENTA+"\n5) Son culturas que se desarrollaron en la región La Libertad.\n"+RESET)
  time.sleep(2)
- print("a) Chavín y Vicus")
+ print(BLUE+"a) Chavín y Vicus")
  time.sleep(1)
  print("b) Mochica y Chimú")
  time.sleep(1)
  print("c) Chimú y Nasca")
  time.sleep(1)
- print("d) Mochica y Vicus")
+ print("d) Mochica y Vicus"+RESET)
  time.sleep(1)
 
- respuesta_5 = input("\n Tu respuesta: ")
+ respuesta_5 = input(MAGENTA+"\n Tu respuesta: "+RESET)
 
  while respuesta_5 not in ("a","b","c","d"):
-    respuesta_5 = input("Debes ingresar a, b, c o d. Ingresa nuevamente tu respuesta: ")
+    respuesta_5 = input(YELLOW+"Debes ingresar a, b, c o d. Ingresa nuevamente tu respuesta: "+RESET)
 
  if respuesta_5 == "a":
     puntaje -= random.randint(10,15)
-    print("Incorrecto", nombre, ": no es Chavín y Vicus"+RESET)
+    print(RED+"Incorrecto", nombre, ": no es Chavín y Vicus"+RESET)
     time.sleep(1)
     print("Has perdido puntos. Tienes", puntaje,"puntos." )
  elif respuesta_5 == "c":
     puntaje -= random.randint(10,15)
-    print("Incorrecto", nombre, "no es Chimú y Nasca"+RESET)
+    print(RED+"Incorrecto", nombre, "no es Chimú y Nasca"+RESET)
     time.sleep(1)
     print("Has perdido puntos. Tienes", puntaje,"puntos")
  elif respuesta_5 == "d":
     puntaje /= 2
-    print("Lo siento, ", nombre, "pero has elegido la respuesta incorrecta, Esto perjudica tus puntos ya que se dividira a la mitad tus puntos."+RESET)
+    print(RED+"Lo siento, ", nombre, "pero has elegido la respuesta incorrecta, Esto perjudica tus puntos ya que se dividira a la mitad tus puntos."+RESET)
     time.sleep(1)
-    print("Has perdido puntos. Tienes", puntaje,"puntos"+RESET)
+    print(GREEN+"Has perdido puntos. Tienes", puntaje,"puntos"+RESET)
  else:
     puntaje *= 2
     print(YELLOW+"Respuesta Correcta", nombre, "¡Wow, me sorprendes!... ¡duplicare tu resultado!"+RESET)
